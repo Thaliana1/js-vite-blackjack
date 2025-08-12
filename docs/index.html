@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack - vite </title>
+
+    
+
+  <script type="module" crossorigin src="/assets/index-e0B49KIe.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CCtCu9p5.css">
+</head>
+<body>
+   
+    <div id="app">
+        
+<!-- estilo y esctrutura del juego -->
+    <header class="titulo">
+     Blackjack 
+    </header>
+
+    <!--el div es un contenedor-->
+    <div class="row mt-2">
+        <div id="divBotones" class="col text-center">
+
+            <button id="btnNuevo"            class="btn btn-danger ">Nuevo Juego</button>
+            <button id="btnPedir"   disabled  class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetener" disabled  class="btn btn-primary">Detener</button>
+            <!--disable = "disable" es para que que desabilite los dos ultimos botones-->
+
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas" class="divCartas">
+                <!-- <img class="carta" src="cartas/10C.png" > -->
+                
+            </div>
+        </div>
+    </div>
+
+     <div class="row container mt-2">
+        <div class="col">
+
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas" class="divCartas">
+                <!--<img class="carta" src="cartas/2S.png" >-->
+               
+            </div>
+        </div>
+    </div>
+   
+   
+   
+    </div>
+
+
+    
+
+
+
+</body>
+</html>
