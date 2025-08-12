@@ -30,7 +30,6 @@ const miModulo = (() => {
 
 
 
-
 //creamos un m0odulo
 deck = crearDeck( tipos , especiales );
 
@@ -53,7 +52,6 @@ const inicializarJuego  = ( numJugadores = 2 ) => {
 }
 
 
-
 // acumular los putnos del jugador respectivo
 //Turno: 0 = primer jugador y el ultimo sera la computadora
    const acumularPuntosJugador = (carta, turno) => {
@@ -63,6 +61,7 @@ const inicializarJuego  = ( numJugadores = 2 ) => {
 
 }
 
+
 const crearCarta = ( carta, turno) => {
 
     const imgCarta = document.createElement('img');
@@ -70,6 +69,7 @@ const crearCarta = ( carta, turno) => {
     imgCarta.classList.add('carta');
     divCartasJugadores[turno].append ( imgCarta );
 }
+
 
 //funcion para evaluar quien gana
 const determinarGanador = () => {
