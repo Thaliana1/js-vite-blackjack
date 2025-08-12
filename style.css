@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2f4f30;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+/*estilo y esctrutura del juego */
+.titulo {
+    text-align: center;
+    background-color: rgb(65, 6, 6);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -70px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 240px;
+}
+
+.container, .row, .col {
+    background-color: transparent !important;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: #2f4f30;
+}
+
+h1, h1 small {
+  color: white !important;
+}
